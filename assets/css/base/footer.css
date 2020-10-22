@@ -1,0 +1,82 @@
+footer {
+    background-color: #f8f8f8;
+}
+footer h4, footer h5 {
+    color: #bdc6c6;
+}
+footer p {
+    color: #657172;
+}
+footer p a {
+    color: #fe877f !important;
+    text-decoration: none !important;
+}
+footer p a:hover, footer p a:active, footer p a:visited {
+    color: #ff5b50;
+}
+footer small {
+    color: #9fb1b3;
+}
+footer small a {
+    color: #9fb1b3 !important;
+    text-decoration: underline;
+}
+footer small strong {
+    color: #ff5b50;
+}
+footer button {
+    color: #657172;
+    border: 2px solid #dce5e4 !important;
+    background-color: transparent;
+    transition: all 0.5s;
+}
+
+footer button span {
+    color: #ff5b50;
+    transition: all 0.5s;
+}
+
+footer button:hover {
+    transition: all 0.5s;
+    background-color: #ff5b50;
+    border: 2px solid #ff5b50 !important;
+    color: white !important;
+}
+footer button:hover > span {
+    transition: all 0.5s;
+    color: white !important;
+}
+
+footer button:active,  footer button:focus{
+    transition: all 0.5s;
+    background-color: #ff5b50;
+    border: 2px solid #ff5b50 !important;
+    color: white !important;
+    box-shadow: none !important;
+}
+
+footer button:focus > span, footer button:active > span {
+    transition: all 0.5s;
+    color: white !important;
+}
+
+
+footer .social {
+    text-decoration: none;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #cacece;
+    color: #f8f8f8 !important;
+    font-size: 1.3rem;
+
+    transition: background-color 0.5s;
+}
+footer .social:hover {
+    transition: background-color 0.5s;
+    background-color: #ff5b50;
+}
